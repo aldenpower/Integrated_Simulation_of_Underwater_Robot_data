@@ -21,3 +21,27 @@ Raw simulation data in ROS 2 bag format:
 
 - `full_bag2_0.db3`: The main SQLite database storing all topics
 - `metadata.yaml`: ROS 2 bag metadata for session details and topic mapping
+
+## 📦 Cloning the Repository with Git LFS
+
+This repository contains large files (e.g., ROS 2 bag data) managed with [Git LFS](https://git-lfs.com). Follow the steps below to ensure proper setup:
+
+### 1. Install Git LFS
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install git-lf`
+```
+
+### 2. Initialize Git LFS
+```bash
+git lfs install
+```
+
+### 3. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/underwater_simulation_data.git
+cd underwater_simulation_data
+```
