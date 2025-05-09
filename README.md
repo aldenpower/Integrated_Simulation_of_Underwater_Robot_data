@@ -31,7 +31,7 @@ This repository contains large files (e.g., ROS 2 bag data) managed with [Git LF
 **Ubuntu/Debian:**
 ```bash
 sudo apt update
-sudo apt install git-lf`
+sudo apt install git-lfs
 ```
 
 ### 2. Initialize Git LFS
@@ -42,6 +42,5 @@ git lfs install
 ### 3. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/underwater_simulation_data.git
-cd underwater_simulation_data
+git clone https://github.com/aldenpower/Integrated_Simulation_of_Underwater_Robot_data.git
 ```
